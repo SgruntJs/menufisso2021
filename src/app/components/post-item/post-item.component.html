@@ -1,0 +1,10 @@
+
+
+<div class="card" style="width: 18rem;">
+  <h5 class="card-header">#{{postItem.id}}</h5>
+  <div class="card-body">
+    <h5 class="card-title">{{postItem.title}}</h5>
+    <p class="card-text">{{postItem.body}}</p>
+    <a href="#" class="btn btn-primary"  [routerLink]="['/posts/', postItem.id]" routerLinkActive="active" >Continua...</a>
+  </div>
+</div>
